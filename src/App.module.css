@@ -58,3 +58,9 @@
     display: block;
   }
 }
+
+@media screen and (max-height: 520px) {
+  .footer{
+    display: none;
+  }
+}

@@ -19,7 +19,7 @@ const options = [
 ];
 
 const Inputs = (props) => {
-  const [inputValue, setInputValue] = useState(0);
+  const [inputValue, setInputValue] = useState();
   const [selectedUnit, setSelectedUnit] = useState("m");
 
   const inputChangeHandler = (event) => {

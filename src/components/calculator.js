@@ -1,6 +1,14 @@
 const FOOTBALL_FIELD_LENGTH = 105; // in meters
 
 const Calculator = (inputVal, unit) => {
+  if(!inputVal) {
+    inputVal = 0;
+  };
+
+  if(!unit) {
+    unit = "m";
+  };
+
   let inputValInMeters = 0;
   if (unit === "km") {
     inputValInMeters = inputVal * 1000;
