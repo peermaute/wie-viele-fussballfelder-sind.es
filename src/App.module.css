@@ -1,21 +1,20 @@
-.App{
+.App {
   display: flex;
   flex-direction: column;
 }
 
-.header{
+.header {
   margin-top: 15px;
-
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.header>a{
+.header > a {
   text-decoration: none;
-
+  color: #828786;
 }
 
-.body{
+.body {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,11 +26,11 @@
   text-align: center;
 }
 
-.shortTitle{
+.shortTitle {
   display: none;
 }
 
-.footer{
+.footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -40,24 +39,22 @@
   padding-top: 20px;
 }
 
-.icon{
+.icon {
   font-size: 2rem;
-  margin: .7rem;
+  margin: 0.7rem;
   color: #3c3f3e;
 }
 
-#githubIcon:hover{
+#githubIcon:hover {
   color: black;
 }
 
 @media screen and (max-width: 550px) {
-  .urlTitle{
+  .urlTitle {
     display: none;
   }
 
-  .shortTitle{
+  .shortTitle {
     display: block;
   }
 }
-  
-
