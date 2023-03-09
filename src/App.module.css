@@ -1,4 +1,21 @@
-.App {
+.App{
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  margin-top: 15px;
+
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header>a{
+  text-decoration: none;
+
+}
+
+.body{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12,6 +29,25 @@
 
 .shortTitle{
   display: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.icon{
+  font-size: 2rem;
+  margin: .7rem;
+  color: #3c3f3e;
+}
+
+#githubIcon:hover{
+  color: black;
 }
 
 @media screen and (max-width: 550px) {
