@@ -18,7 +18,7 @@ function App() {
   const calculator = (
     <div className={classes.calculator}>
       <h1 className={classes.urlTitle}>wie-viele-fussballfelder-sind.es</h1>
-      <h1 className={classes.shortTitle}>Fussballfelder berechnen</h1>
+      <h1 className={classes.shortTitle}>Umrechnung in Fussballfelder</h1>
       <Inputs onChangeOutputValue={onChangeOutputValue} changeIsCalculated={onChangeIsCalculated} />
     </div>
   );
