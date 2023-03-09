@@ -8,6 +8,10 @@
   margin: 20px;
 }
 
+.fieldImage{
+  max-height: 250px;
+}
+
 .button{
   background-color: #4CAF50;
   border: none;

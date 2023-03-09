@@ -13,7 +13,7 @@ const Output = (props) => {
   return (
     <div className={classes.output}>
       <h1>{outputText}</h1>
-      <img src={fieldImage} alt="Fussballfeld" />
+      <img className={classes.fieldImage} src={fieldImage} alt="Fussballfeld" />
       <button onClick={buttonOnClickhandler} className={classes.button}>
         Neu berechnen
       </button>
