@@ -37,6 +37,7 @@
   right: 0;
   text-align: center;
   padding-top: 20px;
+  z-index: -1;
 }
 
 .icon {
